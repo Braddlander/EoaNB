@@ -75,15 +75,12 @@
 		AUS_idea_hungarian_revolution
 		AUS_idea_grundentlastungspatent
 		AUS_idea_nationalist_unrest
-		AUS_idea_lack_navy_funds
-		AUS_idea_army_spending_cuts
+		AUS_idea_austrian_trade_union
 		AUS_idea_railway_concessions
+		AUS_idea_army_spending_cuts
+		AUS_idea_navy_spending_cuts
 		NA_B_small_scale_railways
 	}
-	
-	set_variable = { AUS_army_navy_funding_level_lp = 0.04 }
-	set_variable = { AUS_army_navy_funding_level_cg = 0.025 }
-	add_dynamic_modifier = { modifier = AUS_army_navy_funding_balance }
 
 	set_variable = {
 		var = HUN_REVOLT_RISK
@@ -355,6 +352,10 @@
 	#Fundamentalism
 	recruit_character = AUS_karl_von_vogelsang
 	
+	#Politicians for later
+	recruit_character = AUS_agenor_goluchowski
+	recruit_character = AUS_bernhard_von_rechberg
+	
 	### FIELD MARSHALS, GENERALS & ADMIRALS ###
 	
 	#Field Marshals
@@ -398,6 +399,7 @@
 	#Political Advisors
 	recruit_character = AUS_abraham_ganz
 	recruit_character = AUS_adolph_von_braun
+	recruit_character = AUS_andreas_von_baumgartner
 	recruit_character = AUS_anselm_salomon_von_rothschild
 	recruit_character = AUS_bernhard_von_wullerstorf_urbair 		#later also admiral
 	recruit_character = AUS_carl_than

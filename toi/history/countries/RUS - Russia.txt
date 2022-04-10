@@ -78,6 +78,7 @@
 		sfund_private_ventures_only
 
 		#NATIONAL SPIRITS
+		RUS_idea_caucasuswar
 		RUS_idea_tsarist_vodka_monopoly
 		RUS_idea_outdated_army
 		RUS_idea_unorganised_army
@@ -173,6 +174,7 @@
 		tribal_leching = 1
 		tech_infantry_napoleonic_uniform = 1
 		vic_army_cloth = 1
+		tech_support = 1
 		tech_naval_mtg_simple_corvette_hull = 1
 		tech_naval_mtg_24_pounder_battery = 1
 		tech_naval_mtg_sails = 1

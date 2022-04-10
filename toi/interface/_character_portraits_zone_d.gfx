@@ -117,6 +117,7 @@ spriteTypes = {
 			name = "GFX_Portrait_TSH_Matsudaira_Katamori"
 			texturefile = "gfx/leaders/TSH/Portrait_TSH_Matsudaira_Katamori.png"
 		}
+
 		spriteType = {
 			name = "GFX_Portrait_TSH_Hayashi_Tadataka"
 			texturefile = "gfx/leaders/TSH/Portrait_TSH_Hayashi_Tadataka.png"
@@ -604,7 +605,7 @@ spriteTypes = {
 		}
 		spriteType = {
 			name = "GFX_Portrait_EZO_Otori_Keisuke"
-			texturefile = "gfx/leaders/EZO/small/Portrait_EZO_Otori_Keisuke.png"
+			texturefile = "gfx/leaders/EZO/Portrait_EZO_Otori_Keisuke.png"
 		}
 		spriteType = {
 			name = "GFX_Portrait_EZO_Otori_Keisuke_Small"
@@ -612,7 +613,7 @@ spriteTypes = {
 		}
 		spriteType = {
 			name = "GFX_Portrait_EZO_Hijikata_Toshizo"
-			texturefile = "gfx/leaders/EZO/small/Portrait_EZO_Hijikata_Toshizo.png"
+			texturefile = "gfx/leaders/EZO/Portrait_EZO_Hijikata_Toshizo.png"
 		}
 		spriteType = {
 			name = "GFX_Portrait_EZO_Hijikata_Toshizo_Small"
@@ -620,7 +621,7 @@ spriteTypes = {
 		}
 		spriteType = {
 			name = "GFX_Portrait_EZO_Nagai_Naoyuki"
-			texturefile = "gfx/leaders/EZO/small/Portrait_EZO_Nagai_Naoyuki.png"
+			texturefile = "gfx/leaders/EZO/Portrait_EZO_Nagai_Naoyuki.png"
 		}
 		spriteType = {
 			name = "GFX_Portrait_EZO_Nagai_Naoyuki_Small"
@@ -937,31 +938,31 @@ spriteTypes = {
 spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_SIA_Rama_Chakri_IV"
-		texturefile = "gfx/leaders/SIA/Portrait_SIA_Rama_Chakri_IV.png"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Rama_IV.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_SIA_Rama_Chakri_V"
-		texturefile = "gfx/leaders/SIA/Portrait_SIA_Rama_Chakri_V.png"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Rama_V.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_SIA_Rama_Chakri_VI"
-		texturefile = "gfx/leaders/SIA/Portrait_SIA_Rama_Chakri_VI.png"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Rama_IV.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_SIA_Rama_Chakri_VII"
-		texturefile = "gfx/leaders/SIA/Portrait_SIA_Rama_Chakri_VII.png"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Rama_VII.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_SIA_Rama_Chakri_VIII"
-		texturefile = "gfx/leaders/SIA/Portrait_SIA_Rama_Chakri_VIII.png"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Rama_VIII.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_SIA_Rama_Chakri_IX"
-		texturefile = "gfx/leaders/SIA/Portrait_SIA_Rama_Chakri_IX.png"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Rama_IX.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_SIA_Rama_Chakri_X"
-		texturefile = "gfx/leaders/SIA/Portrait_SIA_Rama_Chakri_X.png"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Rama_X.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_SIA_Pinklao"
@@ -1501,8 +1502,8 @@ spriteTypes = {
 		}
 	# Bastar
 		spriteType = {
-			name = "GFX_Portrait_BTR_Bhiram_Deo"
-			texturefile = "gfx/leaders/BTR_Portrait_BTR_Bhiram_Deo.png"
+			name = "GFX_Portrait_BTR_Seal_Of_Bastar"
+			texturefile = "gfx/leaders/BTR/Portrait_BTR_Seal_Of_Bastar.png"
 		}
 	# Bikaner
 		spriteType = {
@@ -1533,7 +1534,7 @@ spriteTypes = {
 	# Jaipur
 		spriteType = {
 			name = "GFX_Portrait_JPR_Ram_Singh_II"
-			texturefile = "gfx/leaders/JPR/GFX_Portrait_JPR_Ram_Singh_II.png"
+			texturefile = "gfx/leaders/JPR/Portrait_JPR_Ram_Singh_II.png"
 		}
 	# Manipur
 		spriteType = {

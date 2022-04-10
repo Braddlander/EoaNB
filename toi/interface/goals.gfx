@@ -1386,8 +1386,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/_general/industrial_worker/Focus_Production_Raw_Iron.dds"
 	}
 	SpriteType = {
-		name = "GFX_Focus_refinery_galician_oil"
-		texturefile = "gfx/interface/goals/_general/industrial_worker/focus_refinery_galician_oil.dds"
+		name = "GFX_Focus_Refinery_Oil"
+		texturefile = "gfx/interface/goals/_general/industrial_worker/Focus_Refinery_Oil.dds"
 	}
 	SpriteType = {
 		name = "GFX_Focus_Refinery_Storage"
@@ -2467,6 +2467,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Focus_Monarchy_Violent_Revolution"
 		texturefile = "gfx/interface/goals/_general/politics/Focus_Monarchy_Violent_Revolution.dds"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Newspaper_Ban_Law_Press"
+		texturefile = "gfx/interface/goals/_general/politics/Focus_Newspaper_Ban_Law_Press.png"
 	}
 	SpriteType = {
 		name = "GFX_Focus_Newspaper_Tax"
@@ -5937,6 +5941,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/austria/focus_AUS_Victory_Italy.dds"
 	}
 	SpriteType = {
+		name = "GFX_goal_AUS_von_Benedek"
+		texturefile = "gfx/interface/goals/austria/focus_AUS_von_Benedek.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_AUS_von_Degenfeld"
+		texturefile = "gfx/interface/goals/austria/focus_AUS_von_Degenfeld.png"
+	}
+	SpriteType = {
 		name = "GFX_goal_AUS_Pola_Base"
 		texturefile = "gfx/interface/goals/austria/focus_AUS_Pola_Base.dds"
 	}
@@ -6161,10 +6173,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/austria/focus_AUS_galician_bank.dds"
 	}
 	SpriteType = {
-		name = "GFX_focus_AUS_galician_oil"
-		texturefile = "gfx/interface/goals/austria/focus_AUS_galician_oil.dds"
-	}
-	SpriteType = {
 		name = "GFX_focus_AUS_Ganz"
 		texturefile = "gfx/interface/goals/austria/focus_AUS_Ganz.dds"
 	}
@@ -6174,7 +6182,15 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_AUS_Steyr"
-		texturefile = "gfx/interface/goals/austria/focus_AUS_Steyr.dds"
+		texturefile = "gfx/interface/goals/austria/focus_AUS_Steyr.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_AUS_Steyr_old"
+		texturefile = "gfx/interface/goals/austria/focus_AUS_Steyr_old.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_AUS_Vienna_Arsenal"
+		texturefile = "gfx/interface/goals/austria/focus_AUS_Vienna_Arsenal.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_AUS_czechrailways"
@@ -6355,10 +6371,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_focus_convince_wurttemberg"
 		texturefile = "gfx/interface/goals/bavaria/focus_convince_wurttemberg.dds"
-	}
-	SpriteType = {
-		name = "GFX_goal_focus_government_icon"
-		texturefile = "gfx/interface/goals/_general/focus_government_icon.dds"
 	}
 	SpriteType = {
 		name = "GFX_goal_focus_bismarck_parliament"
@@ -7321,73 +7333,36 @@ spriteTypes = {
 		name = "GFX_focus_japan_isle"
 		texturefile = "gfx/interface/goals/japan/focus_japan_isle.dds"
 	}
+
+	#	SERBIA
+
 	spriteType = {
-		name = "GFX_focus_SER_plums"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_plums.dds"
+		name = "GFX_goal_ban_russophile"
+		texturefile = "gfx/interface/goals/serbia/focus_SER_ban_russophile.png"
 	}
 	spriteType = {
-		name = "GFX_focus_SER_Modern_State"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_Modern_State.dds"
+		name = "GFX_goal_end_oligarchy_rule"
+		texturefile = "gfx/interface/goals/serbia/focus_SER_end_oligarchy_rule.png"
 	}
-	spriteType = {
-		name = "GFX_focus_SER_Saint_Andrews_Assembly"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_Saint_Andrews_Assembly.dds"
+	SpriteType = {
+		name = "GFX_goal_liberal_alliance"
+		texturefile = "gfx/interface/goals/serbia/focus_SER_liberal_alliance.png"
 	}
-	spriteType = {
-		name = "GFX_focus_SER_Obrenovic_Returns"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_Obrenovic_Returns.dds"
+	SpriteType = {
+		name = "GFX_goal_national_assebly_law"
+		texturefile = "gfx/interface/goals/serbia/focus_SER_national_assebly_law.png"
 	}
-	spriteType = {
-		name = "GFX_focus_SER_Karadordevic_Remains"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_Karadordevic_Remains.dds"
+	SpriteType = {
+		name = "GFX_goal_saint_andrew_day"
+		texturefile = "gfx/interface/goals/serbia/focus_SER_saint_andrew_day.png"
 	}
-	spriteType = {
-		name = "GFX_focus_SER_Death_Aleksandar"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_Death_Aleksandar.dds"
+	SpriteType = {
+		name = "GFX_goal_strong_partisan"
+		texturefile = "gfx/interface/goals/serbia/focus_SER_strong_partisan.png"
 	}
-	spriteType = {
-		name = "GFX_focus_SER_Crown_Petar_I"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_Crown_Petar_I.dds"
-	}
-	spriteType = {
-		name = "GFX_focus_SER_Blaznavac_Regency"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_Blaznavac_Regency.dds"
-	}
-	spriteType = {
-		name = "GFX_focus_SER_Balkan_Alliance"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_Balkan_Alliance.dds"
-	}
-	spriteType = {
-		name = "GFX_focus_SER_Army"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_Army.dds"
-	}
-	spriteType = {
-		name = "GFX_focus_SER_Alive_Aleksandar"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_Alive_Aleksandar.dds"
-	}
-	spriteType = {
-		name = "GFX_focus_SER_State_Administration_Reform"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_State_Administration_Reform.dds"
-	}
-	spriteType = {
-		name = "GFX_focus_SER_Turkish_Withdrawal"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_Turkish_Withdrawal.dds"
-	}
-	spriteType = {
-		name = "GFX_focus_SER_Wake_Serb_Spirit"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_Wake_Serb_Spirit.dds"
-	}
-	spriteType = {
-		name = "GFX_focus_SER_Herzegovina_Uprising"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_Herzegovina_Uprising.dds"
-	}
-	spriteType = {
-		name = "GFX_focus_SER_National_Assembly_Reform"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_National_Assembly_Reform.dds"
-	}
-	spriteType = {
-		name = "GFX_focus_SER_Cukur_Fountain"
-		texturefile = "gfx/interface/goals/serbia/focus_SER_Cukur_Fountain.dds"
+	SpriteType = {
+		name = "GFX_goal_tenka_plot"
+		texturefile = "gfx/interface/goals/serbia/focus_SER_tenka_plot.png"
 	}
 	spriteType = {
 		name = "GFX_focus_FIN_wood"
@@ -7698,7 +7673,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_JAP_unite_japan"
-		texturefile = "gfx/partnership-gfx/Mei's GFX/goals/goals_JAP_unite_JAP.dds"
+		texturefile = "gfx/partnership-gfx/Mei's GFX/goals/goals_JAP_unite_japan.dds"
 	}
 	SpriteType = {
 		name = "GFX_focus_JAP_imperial_restoration"

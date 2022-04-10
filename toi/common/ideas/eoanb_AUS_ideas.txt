@@ -129,7 +129,7 @@ ideas = {
 			picture = FRA_national_mobilization_focus
 		}
 
-		AUS_ITA_Alliance = {
+		AUS_idea_italian_league = {
 
 			allowed = {
 				always = no
@@ -141,10 +141,13 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = placeholder
+			picture = AUS_italian_league
 
 			modifier = {
-	            ai_join_ally_desire_factor = 100
+				political_power_gain = -0.2
+				drift_defence_factor = 0.75
+				resistance_growth = -0.5
+				ai_join_ally_desire_factor = 100
 			}
 		}
 
@@ -868,23 +871,6 @@ ideas = {
 				army_artillery_defence_factor = 0.1
 			}
 		}
-		AUS_idea_Italian_League = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = AUS_Italian_League
-
-			modifier = {
-			}
-		}
 		
 		AUS_idea_financial_crisis = {
 
@@ -1000,6 +986,10 @@ ideas = {
 		
 		AUS_idea_railway_concessions = {
 
+			allowed = {
+				always = yes
+			}
+			
 			allowed_civil_war = {
 				always = no
 			}
@@ -1009,9 +999,245 @@ ideas = {
 			picture = generic_build_infrastructure
 
 			modifier = {
-				consumer_goods_factor = 0.15
+				consumer_goods_factor = 0.1
 				political_power_factor = -0.05
 				production_speed_rail_way_factor = 0.15
+			}
+		}
+		
+		AUS_idea_newspaper_tax = {
+
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = AUS_newspaper_tax
+
+			modifier = {
+				consumer_goods_factor = -0.01
+				political_power_factor = 0.03
+			}
+		}
+		
+		#Debt Management
+		
+		AUS_idea_debt_repayments = {
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = SWE_lumber_boom
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.05
+				production_speed_buildings_factor = -0.05
+			}
+		}
+		
+		#Trade Union
+		
+		AUS_idea_austrian_trade_union = {
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = free_trade
+
+			modifier = {
+				consumer_goods_factor = -0.02
+			}
+			
+			targeted_modifier = {
+				tag = LIE
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+			
+			targeted_modifier = {
+				tag = LVN
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+			
+			targeted_modifier = {
+				tag = MOD
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+			
+			targeted_modifier = {
+				tag = PRM
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+		}
+		
+		LIE_idea_austrian_trade_union = {
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = free_trade
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+			
+			targeted_modifier = {
+				tag = AUS
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+			
+			targeted_modifier = {
+				tag = LVN
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+			
+			targeted_modifier = {
+				tag = MOD
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+			
+			targeted_modifier = {
+				tag = PRM
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+		}
+		
+		LVN_idea_austrian_trade_union = {
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = free_trade
+
+			modifier = {
+				consumer_goods_factor = -0.03
+			}
+			
+			targeted_modifier = {
+				tag = AUS
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+			
+			targeted_modifier = {
+				tag = LIE
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+			
+			targeted_modifier = {
+				tag = MOD
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+			
+			targeted_modifier = {
+				tag = PRM
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+		}
+		
+		MOD_idea_austrian_trade_union = {
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = free_trade
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+			
+			targeted_modifier = {
+				tag = AUS
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+			
+			targeted_modifier = {
+				tag = LIE
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+			
+			targeted_modifier = {
+				tag = LVN
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+			
+			targeted_modifier = {
+				tag = PRM
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+		}
+		
+		PRM_idea_austrian_trade_union = {
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = free_trade
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+			
+			targeted_modifier = {
+				tag = AUS
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+			
+			targeted_modifier = {
+				tag = LIE
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+			
+			targeted_modifier = {
+				tag = LVN
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
+			}
+			
+			targeted_modifier = {
+				tag = MOD
+				extra_trade_to_target_factor = 0.25
+				trade_opinion_factor = 0.5
 			}
 		}
 		
@@ -1101,7 +1327,7 @@ ideas = {
 			}
 		}
 		
-		AUS_idea_lack_navy_funds = {
+		AUS_idea_navy_spending_cuts = {
 		
 			allowed = {
 				always = yes
@@ -1124,7 +1350,7 @@ ideas = {
 			}
 		}
 		
-		AUS_idea_lack_navy_funds_2 = {
+		AUS_idea_navy_spending_cuts_2 = {
 		
 			allowed = {
 				always = yes
@@ -1505,7 +1731,7 @@ ideas = {
 			}
 
 			available = {
-                has_completed_focus = AUS_steyr_arms
+                has_completed_focus = AUS_focus_steyr_arms
             }
 
 			cost = 250

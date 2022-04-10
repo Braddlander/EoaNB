@@ -857,6 +857,31 @@
     SERmisc.19.t:0 "Pancic's Time!"
     SERmisc.19.d:0 ""
     SERmisc.19.a:0 "Glory to Serbia!"
+    
+    SERmisc.20.t:0 "Construction of Captain Miša's Mansion"
+    SERmisc.20.d:0 ""
+    SERmisc.20.a:0 "Glory to Serbia!"
+    
+    SERmisc.21.t:0 "[FROM.GetNameDef] Seeks Financial Help"
+    SERmisc.21.d:0 ""
+    SERmisc.21.a:0 "We can help them, let's send them help."
+    SERmisc.21.b:0 "[ROOT.GetNameDef] does not need such an agreement."
+    
+    SERmisc.25.t:0 "Deligrad Ship"
+    SERmisc.25.d:0 ""
+    SERmisc.25.a:0 "Glory to Serbia!"
+    
+    SERmisc.26.t:0 "Situation with Dobra Mine"
+    SERmisc.26.d:0 ""
+    SERmisc.26.a:0 "Glory to Serbia!"
+    
+    SERmisc.27.t:0 "Question of Mining Rights"
+    SERmisc.27.d:0 ""
+    SERmisc.27.a:0 "Glory to Serbia!"
+    
+    SERmisc.28.t:0 "Geoloske Criticise Sbriji"
+    SERmisc.28.d:0 ""
+    SERmisc.28.a:0 "Glory to Serbia!"
 
     SERcuk.1.t:0 "Chukur Fountain Incident"
     SERcuk.1.d:0 "A hot summer day. Both Serbs and Turkish soldiers are drinking water from a well in Belgrade. An argument started about who will drink/take the water first. And in that heated moment, a Serbian boy named Sava Petkovic accidentaly broke a water jug belonging to a Turkish soldier. The soldier hit the boy in the head and wounded him. Serbian police sent some gendarmes to arrest the soldier. Other Turkish soldiers shot at and killed two Serb policemen. The shots could be heard around the city the whole night."
@@ -916,6 +941,16 @@
     SER_decision_belgrade_artillery_exercises:0 "Artillery Training Outside of the Capital"
     SER_decision_franco_prussian_observer:0 "Send Milojko Lesjanin to Germany"
     SER_decision_military_foundry:0 "Expand Military Foundries"
+    
+    #Economy Decisions
+    SER_decision_category_foreign_geologists:0 "Hire Foreign Geologists"
+    SER_decision_b_cotta_explore_northeast_serbia:0 "B.Cotts Explores Northeast Serbia"
+    SER_decision_ferdinand_von_holchstetter_explore_southeast:0 "Ferdinand Von Holchstetter Explores Southeast Serbia"
+    SER_decision_emil_teze_conduct_research:0 "Emil Teze's Geological Researches"
+    SER_decision_unemployment_problem:0 "Unemployment Problem"
+    SER_decision_fight_inflation:0 "Fight Inflation"
+    SER_decision_problematic_recession:0 "Problematic Recession"
+    SER_decision_succed_reforms:0 "Succed Financial Reform"
 
     #SPIRITS
 
@@ -946,6 +981,13 @@
     #Economy Ideas
     SER_idea_improve_mining_conditions:0 "Advacement of Mining and Industry Technologies"
     SER_idea_improve_mining_conditions1:0 "Advacement of Mining and Industry Technologies"
+    SER_idea_european_architecture1:0 "Captain Miša's Mansion"
+    SER_idea_european_architecture2:0 "European Style Architecture"
+    SER_idea_blagojev_gold_mine:0 "Blagojev Gold Mine"
+    SER_idea_widespread_bankrupcies:0 "Frequent Bankruptcies"
+    SER_idea_widespread_bankrupcies2:0 "Frequent Bankruptcies"
+    SER_idea_widespread_bankrupcies3:0 "Frequent Bankruptcies"
+    SER_idea_widespread_bankrupcies4:0 "Frequent Bankruptcies"
     
     #CUSTOM EFFECT TOOLTIPS
 
@@ -959,6 +1001,8 @@
     eoanb_tt_SER_event_bulgarian_legion:0 "§GDuring the war with Turkey, the Bulgarian Legion will join our army.§!"
     eoanb_tt_SER_grujic_war_plan:0 "§GWith the completion of this focus, Major Grujic's war plan will come into effect during the war against the Ottoman Empire.§!"
 
+    SER_decisions_widespread_bankrupcies_tt:0 "§gWe must take steps to combat the cyclical threat of bankruptcy. Let us not wait, let us act!§!"
+
     #IDEAS
 
     SER_kragujevac_cannons_foundry:0 "Kragujevac Cannons Foundry"
@@ -970,3 +1014,9 @@
     SER_first_captain:0 "First Captain"
     SER_lieutenant:0 "Lieutenant"
     SER_major:0 "Major"
+    
+    ###Opinion Modifiers
+    SER_opinion_french_mind_own_buisness:0 "Decline Mining Rights to French"
+    SER_opinion_french_support_welcome:0 "Accept Mining Rights to French"
+    SER_opinion_export_to_romania:0 "Serbian - Romanian Trade"
+    SER_opinion_export_to_vojvodina:0 "Trade with Vojvodina"

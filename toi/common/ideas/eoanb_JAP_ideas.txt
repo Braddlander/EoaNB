@@ -20,7 +20,7 @@ ideas = {
 
 				modifier = {
 					war_support_factor = -0.20
-					political_power_cost = 0.15
+					political_power_cost = 0.20
 				}
 			}
 			TSH_spirit_vic_bakufu_shogunate_divided = {
@@ -256,7 +256,8 @@ ideas = {
 				}
 
 				modifier = {
-					consumer_goods_factor = 0.1
+					consumer_goods_factor = 0.35
+					stability_factor = -0.10
 				}
 			}
 			TSH_spirit_vic_han_sankin_kotai = {
@@ -284,6 +285,24 @@ ideas = {
 					political_power_gain = -0.35
 					radical_democracy_drift = 0.03
 					stability_factor = -0.1
+				}
+
+				on_remove = {
+					country_event = japan_daimyo_generic.1
+				}
+			}
+			TSH_spirit_vic_han_sankin_kotai_obligations2 = {
+				picture = TSH_sankin_kotai
+				allowed = { is_japanese_country = yes }
+				available = {
+					is_subject_of = TSH
+					TSH = { has_idea = TSH_spirit_vic_han_sankin_kotai }
+				}
+
+				modifier = {
+					political_power_gain = -0.1
+					radical_democracy_drift = 0.065
+					stability_factor = -0.05
 				}
 
 				on_remove = {
@@ -475,16 +494,19 @@ ideas = {
 				}
 			}
 			TSH_spirit_vic_han_ansei_purge = {
+				allowed = { is_japanese_country = yes }
+
+				available = { has_war = no }
 			
-			modifier = {
-				stability_factor = -0.15
-				political_power_factor = -0.20
-				army_org_factor = -0.335
-				army_speed_factor = -0.2
-				encryption_factor = -0.075
-				subjects_autonomy_gain = 0.1
+				modifier = {
+					stability_factor = -0.15
+					political_power_factor = -0.20
+					army_org_factor = -0.335
+					army_speed_factor = -0.2
+					encryption_factor = -0.075
+					subjects_autonomy_gain = 0.1
+				}
 			}
-		}
 		# External
 			TSH_spirit_vic_external_policy_rangaku = {
 				picture = jap_supremacy_of_technology
@@ -823,6 +845,12 @@ ideas = {
 
 				modifier = {
 					naval_hit_chance = 0.05
+				}
+			}
+			TSH_spirit_eng_win_anglo_satsuma_war = {
+				allowed = { tag = ENG }
+				modifier = {
+					factory_output = 0.10
 				}
 			}
 		# Meiji ###########################################################

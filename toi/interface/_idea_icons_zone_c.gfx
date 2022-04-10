@@ -18,8 +18,16 @@ spriteTypes = {
 			texturefile = "gfx/interface/ideas/AUS/AUS_hungarian_nationalism.png"
 		}
 		spriteType = {
-			name = "GFX_idea_AUS_Italian_League"
-			texturefile = "gfx/interface/ideas/AUS/AUS_Italian_League.dds"
+			name = "GFX_idea_AUS_newspaper_tax"
+			texturefile = "gfx/interface/ideas/AUS/AUS_newspaper_tax.png"
+		}
+		spriteType = {
+			name = "GFX_idea_AUS_italian_league"
+			texturefile = "gfx/interface/ideas/AUS/AUS_italian_league.png"
+		}
+		spriteType = {
+			name = "GFX_idea_AUS_Italian_League_old"
+			texturefile = "gfx/interface/ideas/AUS/AUS_Italian_League_old.dds"
 		}
 		spriteType = {
 			name = "GFX_idea_AUS_hungarian_gold"
@@ -135,6 +143,10 @@ spriteTypes = {
 		spriteType = {
 			name = "GFX_idea_AUS_vic_steyr_mannlicher_AG"
 			texturefile = "gfx/interface/ideas/AUS/Manufacturers/steyr_1869.dds"
+		}
+		spriteType = {
+			name = "GFX_idea_AUS_vienna_arsenal"
+			texturefile = "gfx/interface/ideas/AUS/Manufacturers/vienna_arsenal.png"
 		}
 		spriteType = {
 			name = "GFX_idea_AUS_vic_Wiener_Neustadter_Lokomotivfabrik"
@@ -670,7 +682,6 @@ spriteTypes = {
 			name = "GFX_idea_ENG_hc_henry_cole_prt1"
 			texturefile = "gfx/interface/ideas/ENG/ENG_hc_henry_cole_prt1.dds"
 		}
-	
 	# MHC Navy
 		spriteType = {
 			name = "GFX_idea_ENG_navy_chief_alexander_milne_prt1"
@@ -819,17 +830,34 @@ spriteTypes = {
 			name = "GFX_idea_ENG_pax_britannica"
 			texturefile = "gfx/interface/ideas/ENG/idea_ENG_pax_britannica.png"
 		}
+	# Companies
+		spriteType = {
+			name = "GFX_idea_WS_company"
+			texturefile = "gfx/interface/ideas/ENG/ENG_WS_company.png"
+		}
+		spriteType = {
+			name = "GFX_idea_TIW_company"
+			texturefile = "gfx/interface/ideas/ENG/ENG_TIW_company.png"
+		}
 }
 spriteTypes = {
 	# (FIN) Finland
-	# LEADERS #
+	# Advisors #
 		spriteType = {
 			name = "GFX_idea_FIN_vic_Axel_Dalstrom"
-			texturefile = "gfx/interface/ideas/FIN/FIN_vic_Dalstom.dds"
+			texturefile = "gfx/interface/ideas/FIN/FIN_vic_Axel_Dalstrom.dds"
+		}
+		spriteType = {
+			name = "GFX_idea_FIN_Axel_Olof_Freudenthal"
+			texturefile = "gfx/interface/ideas/FIN/FIN_advisor_axel_olof_freudenthal.dds"
 		}
 		spriteType = {
 			name = "GFX_idea_FIN_vic_August_Alexander_Levon"
 			texturefile = "gfx/interface/ideas/FIN/FIN_vic_levon.dds"
+		}
+		spriteType = {
+			name = "GFX_idea_FIN_vic_Elias_Lonnrot"
+			texturefile = "gfx/interface/ideas/FIN/FIN_advisor_elias_lonnrot.dds"
 		}
 		spriteType = {
 			name = "GFX_idea_FIN_vic_William_Crichton"
@@ -845,7 +873,7 @@ spriteTypes = {
 		}
 		spriteType = {
 			name = "GFX_idea_FIN_vic_Carl_Magnus_Dahlstrom"
-			texturefile = "gfx/interface/ideas/FIN/FIN_vic_Dahlstorm.dds"
+			texturefile = "gfx/interface/ideas/FIN/FIN_vic_Dahlstrom.dds"
 		}
 		spriteType = {
 			name = "GFX_idea_FIN_Anders_Edvard_Ramsay"
@@ -878,11 +906,19 @@ spriteTypes = {
 		}
 		spriteType = {
 			name = "GFX_idea_FIN_outdated_economy"
-			texturefile = "gfx/interface/ideas/idea_generic_agrarian_reform.dds"
+			texturefile = "gfx/interface/ideas/FIN/idea_generic_agrarian_reform.dds"
 		}
 		spriteType = {
 			name = "GFX_idea_FIN_the_language_strife"
-			texturefile = "gfx/interface/ideas/idea_generic_neutrality_drift_bonus.dds"
+			texturefile = "gfx/interface/ideas/FIN/idea_generic_neutrality_drift_bonus.dds"
+		}
+		spriteType = {
+			name = "GFX_idea_FIN_finnish_stoicism"
+			texturefile = "gfx/interface/ideas/FIN/FIN_finnish_stoicism.dds"
+		}
+		spriteType = {
+			name = "GFX_idea_FIN_lauantaiseura"
+			texturefile = "gfx/interface/ideas/FIN/FIN_lauantaiseura.dds"
 		}
 }
 spriteTypes = {
